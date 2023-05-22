@@ -83,7 +83,7 @@ services:
     restart: unless-stopped
     environment:
       - TZ=${TZ} 
-      - PLEX_CLAIM=claim-ppJ4bR7o88Bkz6v18wfi
+      - PLEX_CLAIM=claim-XXXXXXXXXXXXXXXXX
     volumes:
       - ${ROOT}/config/plex/db:/config 
       - /path/to/transcode:/transcode 
